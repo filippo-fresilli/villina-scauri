@@ -25,16 +25,16 @@ title : Villina Scauri
 tagline: Casa vacanze nel golfo di Gaeta.
 author : 
   name : Filippo Fresilli
-  site: https://lantoniotrento.github.io
-  description : I&#39;m a web master interested in communication applied to web marketing.
+  site: https://villinascauri.com
+  description : Casa vacanze nel golfo di Gaeta.
   image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : 
-  twitter : 
-  facebook: lantoniotrento
-  linkedin: 
-  instagram: lantoniotrento
-  pinterest: 
+  email : villina.scauri@gmail.com
+  # github : 
+  # twitter : 
+  facebook: Scauri.Villina
+  # linkedin: 
+  # instagram:
+  # pinterest: 
   feedburner : 
 
 twitter_username: 
@@ -46,7 +46,7 @@ twitter_username:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://heliumjk.github.io
+production_url : https://villinascauri.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
