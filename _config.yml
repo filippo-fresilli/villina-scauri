@@ -8,7 +8,7 @@ markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
 url: https://heliumjk.github.io
-baseurl: "/heliumjk.github.io"
+baseurl: "villina-scauri"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -21,23 +21,23 @@ google_ad_client: ca-pub-9204963049240271
 post_limit: 5
 
 
-title : Helium Jekyll
-tagline: Bootstrap 4 UI kit for jekyll
+title : Villina Scauri
+tagline: Casa vacanze nel golfo di Gaeta.
 author : 
-  name : Antonio Trento
+  name : Filippo Fresilli
   site: https://lantoniotrento.github.io
   description : I&#39;m a web master interested in communication applied to web marketing.
   image : social-image.png
   email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
+  github : 
+  twitter : 
   facebook: lantoniotrento
-  linkedin: antoniotrento
+  linkedin: 
   instagram: lantoniotrento
-  pinterest: antoniotrento
+  pinterest: 
   feedburner : 
 
-twitter_username: lantoniotrento
+twitter_username: 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
