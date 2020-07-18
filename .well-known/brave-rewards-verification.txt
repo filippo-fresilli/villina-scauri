@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: villinascauri.com
+Token: 5f7f456711a15a5796846d1b336622d9580b15f202884636bcc23c1f0618481e
