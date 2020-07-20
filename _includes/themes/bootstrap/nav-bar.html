@@ -8,27 +8,29 @@
         ><i class="fa fa-mobile-phone"></i>+39 371 1645363
       </a>
       <a href="mailto:villina.scauri@gmail.com"
-        ><i class="fa fa-envelope"></i>villina.scauri@gmail.com</a
-      >
+        ><i class="fa fa-envelope"></i>villina.scauri@gmail.com</a>
     </span>
     <span class="right hidden-sm-down">
       {% if site.author.facebook %}<a
         href="https://www.facebook.com/{{ site.author.facebook }}/"
         target="_blank"
-        ><i class="fa fa-facebook"></i></a
-      >{% endif %} {% if site.author.twitter %}<a
+        ><i class="fa fa-facebook"></i></a>
+      {% endif %} {% if site.author.twitter %}
+      <a
         href="https://twitter.com/{{ site.author.twitter }}"
         target="_blank"
-        ><i class="fa fa-twitter"></i></a
-      >{% endif %} {% if site.author.linkedin %}<a
+        ><i class="fa fa-twitter"></i></a>
+      {% endif %} {% if site.author.linkedin %}
+      <a
         href="https://www.linkedin.com/in/{{ site.author.linkedin }}/"
         target="_blank"
-        ><i class="fa fa-linkedin"></i></a
-      >{% endif %} {% if site.author.instagram %}<a
+        ><i class="fa fa-linkedin"></i></a>
+        {% endif %} {% if site.author.instagram %}
+      <a
         href="https://www.instagram.com/{{ site.author.instagram }}/"
         target="_blank"
-        ><i class="fa fa-instagram"></i></a
-      >{% endif %}
+        ><i class="fa fa-instagram"></i>
+        </a>{% endif %}
     </span>
   </p>
 </div>
@@ -52,7 +54,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbar1">
       <ul class="navbar-nav">
         <!-- {% assign pages_list = site.pages %} {% assign group = 'navigation' %} -->
-        {% include JB/pages_list %}
+        <!-- {% include JB/pages_list %} -->
         <li class="nav-item">
           <a class="nav-link" href="#foto">Foto</a>
         </li>
