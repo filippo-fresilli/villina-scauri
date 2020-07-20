@@ -49,7 +49,9 @@ canonical: https://villinascauri.com
                     class="btn btn-lg btn-default-filled animated fadeInUp"
                     >Contattaci</a
                   >
-                  <a href="#territorio" class="btn btn-lg btn-common animated fadeInUp"
+                  <a
+                    href="#territorio"
+                    class="btn btn-lg btn-common animated fadeInUp"
                     >Scopri</a
                   >
                 </div>
@@ -94,7 +96,9 @@ canonical: https://villinascauri.com
                     class="btn btn-lg btn-default-filled animated fadeInUp"
                     >Contattaci</a
                   >
-                  <a href="#territorio" class="btn btn-lg btn-common animated fadeInUp"
+                  <a
+                    href="#territorio"
+                    class="btn btn-lg btn-common animated fadeInUp"
                     >Scopri</a
                   >
                 </div>
@@ -770,7 +774,12 @@ canonical: https://villinascauri.com
     <div class="row">
       <div class="col-md-8">
         <!-- <h3 class="title-head text-center">Contattaci</h3> -->
-        <form class="contact-form" action="https://formspree.io/mdowprjl" data-toggle="validator" method="POST">
+        <form
+          class="contact-form"
+          action="https://formspree.io/mdowprjl"
+          data-toggle="validator"
+          method="POST"
+        >
           <div class="row">
             <div class="col-sm-4">
               <div class="form-group">
@@ -806,13 +815,13 @@ canonical: https://villinascauri.com
               <div class="form-group">
                 <i class="contact-icon fa fa-pencil-square-o"></i>
                 <input
-                  type="text"
-                  name="subject"
+                  type="number"
+                  name="number"
                   class="form-control"
-                  id="subject"
-                  placeholder="Soggetto"
+                  id="number"
+                  placeholder="Cellulare"
                   required
-                  data-error="Per favore inserisci il Soggetto"
+                  data-error="Per favore inserisci il tuo numero di cellulare"
                 />
                 <div class="help-block with-errors"></div>
               </div>
@@ -828,6 +837,13 @@ canonical: https://villinascauri.com
                   data-error="Per favore inserisci il messaggio"
                 ></textarea>
                 <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check it
+                  <a href="#">out </a>
+                </label>
               </div>
               <button
                 type="submit"
