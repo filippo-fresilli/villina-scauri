@@ -1,0 +1,25 @@
+---
+label: Villina Scauri
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: tagline
+  label: tagline
+- type: text
+  name: css
+  label: css
+- type: text
+  name: js
+  label: js
+- type: text
+  name: keywords
+  label: keywords
+- type: text
+  name: canonical
+  label: canonical
